@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- this is XSD -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id = "airtel" class = "com.spring.ioc.spring_demo.Airtel"></bean>
+<bean id = "vodaphone" class = "com.spring.ioc.spring_demo.Vodaphone"></bean>
+<bean id = "sim" class = "com.spring.ioc.spring_demo.Jio"></bean>
+
+</beans>
